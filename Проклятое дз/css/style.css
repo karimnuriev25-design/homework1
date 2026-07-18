@@ -1,0 +1,31 @@
+html{
+    font-family: sans-serif;
+}
+body{
+    box-sizing: border-box;
+}
+.conteiner{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 15px 20px;
+    border-bottom: 1px solid black;
+}
+.conteiner-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.phone{
+    color: black;
+    font-weight: 600;
+}
+.nav{
+    display: flex;
+    gap: 30px; 
+    list-style: none;
+    font-weight: 600;
+}
+.nav a {  
+    color: black; 
+}
