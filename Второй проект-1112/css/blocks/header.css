@@ -3,6 +3,7 @@
     top: 0;
     right: 0;
     left: 0;
+    z-index: var(--layer-1);
     padding-block: 32px;
     background-color: var(--bg-color);
     transition: box-shadow var(--transition-time);
@@ -139,7 +140,7 @@
 }
 }
 
-@media (width <=768px){
+@media (width <= 768px){
  .header__actions{
   gap: 30px;
 }
