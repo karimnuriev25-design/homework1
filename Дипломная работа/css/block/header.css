@@ -1,0 +1,31 @@
+.header__container{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu__link{
+    color: aliceblue;
+    font-size: 18px;
+}
+/*
+.burger{
+    margin-right: 50px;
+}
+
+.header__img{
+    margin-right: 50px;
+}
+
+.basket{
+    margin-left: 56px;
+}
+
+*/

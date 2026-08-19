@@ -1,0 +1,38 @@
+.hero__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__container{
+    background-color: #ddd;
+}
+
+.hero__info{
+    max-width: 556px;
+}
+
+.hero__title{
+    max-width: 554px;
+    font-family: sans-serif;
+    font-weight: 400;
+font-size: 46px;
+line-height: 103%;
+color: #111;
+}
+
+.hero__text{
+    font-weight: 400;
+font-size: 26px;
+line-height: 130%;
+color: #111;
+}
+
+.button{
+    display: inline-block;
+    border-radius: 3px;
+    padding: 15px 50px;
+    background-color:  #c5358c;
+    font-weight: 400;
+font-size: 24px;
+color: #fff;
+}
