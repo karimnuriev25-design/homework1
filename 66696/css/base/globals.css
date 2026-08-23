@@ -1,0 +1,8 @@
+.container{
+    width: min(var(--container-width),100% - var(--container-padding) *2) ;
+    margin-inline: auto;
+}
+
+html{
+    height: 200vh;
+}
