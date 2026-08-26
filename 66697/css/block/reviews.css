@@ -1,0 +1,174 @@
+.reviews__wrapper{
+    display: flex;
+}
+
+.reviews__title{
+    padding-top: 150px;
+    font-family: var(--font-family);
+    font-weight: 600;
+font-size: 42px;
+color: #111;
+}
+
+.reviews__title-number{
+    color: #c5358c;
+}
+
+.reviews__rating{
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 20px;
+}
+
+.reviews__name{
+font-family: var(--font-family);
+    font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+color: #111;
+padding-bottom: 15px;
+}
+
+.reviews__rating-big{
+    font-family: var(--font-family);
+    font-weight: 500;
+font-size: 30px;
+color: #111;
+}
+
+.reviews__wrapper{
+    padding-top: 40px;
+    border-bottom: 1px solid   #ababab;
+    padding-bottom: 50px;
+     position: relative;
+}
+
+.reviews__rating{
+    padding-right: 50px;
+}
+
+.reviews-action__button{
+    margin-left: 70px;
+    padding: 15px 41px;
+    border: 1px solid #111;
+border-radius: 3px;
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 24px;
+color: #111;
+transition: color var(--transition-time), background-color var(--transition-time);
+}
+
+@media (any-hover: hover){
+    .reviews-action__button:hover{
+        color: #fff;
+      background-color: #111;
+    }
+}
+
+.reviews__item{
+    display: flex;
+   
+}
+
+.reviews__item-title{
+        font-family: var(--font-family);
+        font-weight: 600;
+font-size: 20px;
+line-height: 150%;
+color: #111;
+}
+
+.reviews__item-text{
+    padding-top: 10px;
+    font-family: var(--font-family);
+    font-weight: 300;
+font-size: 18px;
+line-height: 140%;
+color: #111;
+}
+
+.reviews__item-date{
+    display: flex;
+    
+}
+
+.reviews__item-image{
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.reviews__item-author{
+   display: block;
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 18px;
+color: #c5358c;
+border-bottom: 1px solid var(--accent-color);
+}
+.reviews__item-author {
+    display: table;         /* Хитрость: заставляет блок сжаться до ширины текста */
+    border-bottom: 1px solid var(--accent-color);
+    color: #c6358c;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.reviews__item-date{
+    font-family: var(--font-family);
+    font-weight: 300;
+font-size: 18px;
+line-height: 150%;
+color: #909090;
+position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+.reviews__show-more-wrapper{
+    margin-top: 90px;
+    margin-bottom: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.load-more-btn{   
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 24px;
+color: #111;
+padding-right: 25px;
+}
+
+.reviews__show-border{
+    padding: 15px 40px;
+    border-radius: 3px;
+    border: 1px solid #111;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: border-color var(--transition-time);
+}
+
+.reviews__show-border:hover {       
+    border-color: #c6358c; 
+}
+
+.load-more-btn{
+    transition:  color var(--transition-time);
+}
+
+.reviews__show-border:hover .load-more-btn{
+     color: #c6358c ; 
+} 
+
+.reviews__show-more-icon{
+     filter: none; 
+    transition: filter var(--transition-time) ;
+}
+
+.reviews__show-border:hover .reviews__show-more-icon {
+    filter: invert(36%) sepia(83%) saturate(3980%) hue-rotate(310deg) brightness(91%) contrast(92%);
+}

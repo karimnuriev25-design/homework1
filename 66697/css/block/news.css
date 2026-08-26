@@ -1,0 +1,120 @@
+.news{
+    padding-top: 150px;
+    
+}
+
+.news__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+     align-items: stretch; 
+}
+
+.news__title{
+    padding-bottom: 70px;
+    font-family: var(--font-family);
+    font-weight: 900;
+font-size: 42px;
+color: #111;
+}
+
+.news__article {
+  display: flex;
+  flex-direction: column;
+   flex: 1 1 30%; 
+}
+
+.news__images--cards{  
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.news__info{
+    position: relative;
+}
+
+.news__date{
+    display: block;
+    padding-bottom: 20px;
+    font-family: var(--font-family);
+    font-weight: 300;
+font-size: 18px;
+line-height: 150%;
+color: #909090;
+}
+
+.news__item-title{
+    padding-bottom: 15px;
+    font-family: var(--font-family);
+    font-weight: 600;
+font-size: 20px;
+line-height: 120%;
+color: #111;
+}
+
+.mews-text{
+    padding-bottom: 20px;
+    font-family: var(--font-family);
+    font-weight: 300;
+font-size: 18px;
+line-height: 120%;
+color: #000;
+
+}
+
+.news__link{ 
+    border-bottom: 1px solid var(--accent-color);
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 18px;
+color: #c5358c;
+}
+
+.news__show-more{
+    padding-top: 80px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.news__show-more-wrapper{
+    display: flex;
+    align-items: center;
+     padding: 15px 40px;
+    border-radius: 3px;
+    border: 1px solid #111;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: border-color var(--transition-time);
+
+}
+
+.news__show-more-wrapper:hover .news-more-btn{
+     color: #c6358c ; 
+} 
+
+.news__show-more-wrapper:hover {       
+    border-color: #c6358c; 
+}
+
+.news-more-btn{
+font-family: var(--font-family);
+    font-weight: 400;
+font-size: 24px;
+color: #111;
+padding-right: 25px;
+transition: all var(--transition-time);
+}
+
+.news__show-more-icon{
+    transition: all var(--transition-time);
+}
+
+.news__show-more-wrapper:hover .news__show-more-icon {
+    filter: invert(36%) sepia(83%) saturate(3980%) hue-rotate(310deg) brightness(91%) contrast(92%);
+}
+
+.news__show-more-icon{
+
+}

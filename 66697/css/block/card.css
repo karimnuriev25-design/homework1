@@ -1,0 +1,77 @@
+.card{
+ margin-top: 150px;
+ margin-bottom: 150px;
+}
+
+
+
+.card__container{  
+    
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: space-between;
+ gap: 20px;
+}
+
+.content{
+    max-width: 325px;  
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 41px 0 rgba(0, 0, 0, 0.05);
+}
+
+.category-card-title{
+    padding-top: 20px;
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 30px;
+     color: #111;
+   margin-bottom: 11px;
+   padding-left: 40px;
+}
+
+.category-card-link{
+display: inline-block;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+color: #111;
+padding-left: 40px;
+padding-bottom: 30px    ;
+display: flex;
+align-items: center;
+}
+
+.category-card-link::after{
+     content: "";
+    display: inline-block;
+    margin-left: 20px;
+    width: 34px;
+    height: 34px; /* увеличить высоту, чтобы фон не обрезался */
+    background-image: url("../../icons/arrow.svg"); 
+    background-repeat: no-repeat;
+    transition: transform 0.2s;
+    background-position: center;
+}
+
+ .content__info{
+    transition: background-color var(--transition-time) ;
+ }
+
+ .content__info:hover{ 
+ background-color: #111;
+}
+
+.content__info:hover .category-card-title {
+    color: #ffffff;
+}
+
+.content__info:hover .category-card-link {
+    color: #ffffff;
+}
+
+/* я хз че за фильтры в инете нашел */
+.content__info:hover .category-card-link::after {
+    filter: brightness(0) invert(1);
+}   

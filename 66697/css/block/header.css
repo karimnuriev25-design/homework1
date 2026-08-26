@@ -1,0 +1,48 @@
+.header{
+background-color: var(--bg-color);
+font-family: var(--second-family);
+}
+
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu__link{
+    color: aliceblue;
+    font-size: 18px;
+    transition: color var(--transition-time);
+}
+
+.menu__link:hover{
+  color: var(--accent-color);
+}
+
+.burger {
+    fill: #ffffff;
+    stroke: #ffffff;
+    transition: fill var(--transition-time), stroke var(--transition-time);
+}
+
+.burger:hover {
+    fill: var(--accent-color);
+    stroke: var(--accent-color);
+}
+
+.basket{
+    fill: #ffffff;
+    stroke: #ffffff;
+    transition: fill var(--transition-time), stroke var(--transition-time);
+}
+
+.basket:hover {
+    fill: var(--accent-color);
+    stroke: var(--accent-color);
+}
