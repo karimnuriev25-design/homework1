@@ -1,0 +1,923 @@
+.contact{
+    background: #f8f8f8;
+}
+
+@media (width > 1360px){
+.contact__container{
+    display: flex;
+    
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-bottom: 110px;
+}
+}
+
+@media (width <= 1360px){
+.contact__container{
+    display: flex;
+    
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-bottom: 110px;
+}
+}
+
+@media (width <= 1200px){
+.contact__container{
+    display: flex;
+    
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-bottom: 110px;
+}
+}
+
+@media (width <= 992px){
+.contact__container{
+    display: flex;
+     
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+}
+
+@media (width <= 768px){
+.contact__container{
+    display: flex;
+     
+    justify-content: space-between;
+    padding-top: 63px;
+    padding-bottom: 68px;
+}
+}
+
+@media (width <= 604px){
+.contact__container{
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 63px;
+    padding-bottom: 68px;
+}
+}
+
+@media (width <= 576px){
+.contact__container{
+    display: flex;
+     flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 45px;
+}
+}
+
+@media (width <= 360px){
+.contact__container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 63px;
+    padding-bottom: 70px;
+}
+}
+
+.contact__left{
+    display: flex;
+   flex-direction: column;
+}
+
+.contact__from-left{
+    display: flex;
+     flex-direction: column;
+}
+
+@media (width > 1360px){
+.contact__left__title{
+    padding-bottom: 50px;
+    font-family: var(--second-family);
+    font-weight: 600;
+font-size: 42px;
+color: #111;
+}
+}
+
+@media (width <= 1360px){
+.contact__left__title{
+    padding-bottom: 50px;
+    font-family: var(--second-family);
+    font-weight: 600;
+font-size: 42px;
+color: #111;
+}
+}
+
+@media (width <= 1200px){
+.contact__left__title{
+    padding-bottom: 45px;
+    font-family: var(--second-family);
+    font-weight: 600;
+font-size: 40px;
+color: #111;
+}
+}
+
+@media (width <= 1050px){
+.contact__left__title{
+    padding-bottom: 42px;
+    font-family: var(--second-family);
+    font-weight: 600;
+font-size: 38px;
+color: #111;
+}
+}
+
+@media (width <= 992px){
+.contact__left__title{
+    padding-bottom: 35px;
+    font-family: var(--second-family);
+    font-weight: 600;
+font-size: 30px;
+color: #111;
+}
+}
+
+@media (width <= 768px){
+.contact__left__title{
+    padding-bottom: 20px;
+    font-family: var(--second-family);
+    font-weight: 600;
+font-size: 20px;
+color: #111;
+}
+}
+
+
+@media   (width > 1360px){
+.contact__input-left {
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 18px;
+color: #ababab;
+    width: 555px;
+    border: none;
+    background-color:  #f8f8f8;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+    padding: 15px 0;
+}
+}
+
+@media   (width <= 1360px){
+.contact__input-left {
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 18px;
+color: #ababab;
+    width: 555px;
+    border: none;
+    background-color:  #f8f8f8;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+    padding: 15px 0;
+}
+}
+
+@media   (width <= 1200px){
+.contact__input-left {
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 16px;
+color: #ababab;
+    width: 400px;
+    border: none;
+    background-color:  #f8f8f8;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+    padding: 15px 0;
+}
+}
+
+@media   (width <= 1050px){
+.contact__input-left {
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 16px;
+color: #ababab;
+    width: 360px;
+    border: none;
+    background-color:  #f8f8f8;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+    padding: 15px 0;
+}
+}
+
+@media   (width <= 992px){
+.contact__input-left {
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 14px;
+color: #ababab;
+    width: 330px;
+    border: none;
+    background-color:  #f8f8f8;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+}
+
+@media   (width <= 860px){
+.contact__input-left {
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 12px;
+color: #ababab;
+    width: 310px;
+    border: none;
+    background-color:  #f8f8f8;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+    padding: 7px 0;
+}
+}
+
+@media   (width <= 768px){
+.contact__input-left {
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 12px;
+color: #ababab;
+    width: 304px;
+    border: none;
+    background-color:  #f8f8f8;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+    padding: 7px 0;
+}
+}
+
+@media   (width <= 700px){
+.contact__input-left {
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 12px;
+color: #ababab;
+    width: 215px;
+    border: none;
+    background-color:  #f8f8f8;
+    margin-bottom: 14px;
+    border-bottom: 1px solid #000000;  
+    padding: 7px 0;
+}
+}
+
+
+@media   (width <= 576px){
+.contact__input-left {
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 12px;
+color: #ababab;
+    width: 350px;
+    border: none;
+    background-color:  #f8f8f8;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 14px;
+    padding: 6px 0;
+}
+}
+
+@media   (width <= 390px){
+.contact__input-left {
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 12px;
+color: #ababab;
+    width: 100%;
+    border: none;
+    background-color:  #f8f8f8;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 14px;
+    padding: 6px 0;
+}
+}
+
+@media (width > 1360px){
+.contact__submit-button{
+    padding-top: 70px;
+    display: flex;
+    justify-content: start;
+}
+}
+
+@media (width <= 1360px){
+.contact__submit-button{
+    padding-top: 70px;
+    display: flex;
+    justify-content: start;
+}
+}
+
+@media (width <= 1050px){
+.contact__submit-button{
+    padding-top: 55px;
+    display: flex;
+    justify-content: start;
+}
+}
+
+@media (width <= 992px){
+.contact__submit-button{
+    padding-top: 50px;
+    display: flex;
+    justify-content: start;
+}
+}
+
+@media (width <= 768px){
+.contact__submit-button{
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+}
+}
+
+@media (width <= 700px){
+.contact__submit-button{
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+}
+}
+
+@media (width > 1360px){
+.contact__submit{
+    padding: 15px 46px;
+    border-radius: 3px;
+    background-color: #111;
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 24px;
+color: #fff;
+transition:  background-color var(--transition-time) ;
+}
+}
+
+@media (width <= 1360px){
+.contact__submit{
+    padding: 15px 46px;
+    border-radius: 3px;
+    background-color: #111;
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 24px;
+color: #fff;
+transition:  background-color var(--transition-time) ;
+}
+}
+
+@media (width <= 1050px){
+.contact__submit{
+    padding: 15px 40px;
+    border-radius: 3px;
+    background-color: #111;
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 22px;
+color: #fff;
+transition:  background-color var(--transition-time) ;
+}
+}
+
+@media (width <= 992px){
+.contact__submit{
+    padding: 10px 30px;
+    border-radius: 3px;
+    background-color: #111;
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 18px;
+color: #fff;
+transition:  background-color var(--transition-time) ;
+}
+}
+
+@media (width <= 768px){
+.contact__submit{
+    padding: 7px 26px;
+    border-radius: 3px;
+    background-color: #111;
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 16px;
+color: #fff;
+transition:  background-color var(--transition-time) ;
+}
+}
+
+@media (width <= 576px){
+.contact__submit{
+    padding: 8px 28px;
+    border-radius: 3px;
+    background-color: #111;
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 15px;
+color: #fff;
+transition:  background-color var(--transition-time) ;
+}
+}
+
+@media(any-hover: hover){
+.contact__submit:hover{
+    background-color: var(--accent-color);
+}
+}
+
+.contact__submit:active{
+  background-color:  #ababab;
+}
+
+.contact__right{
+     display: flex;
+   flex-direction: column;
+}
+
+@media (width > 1360px){
+.contact__right__title{
+    padding-bottom: 50px;
+    font-family: var(--second-family);
+    font-weight: 600;
+font-size: 42px;
+color: #111;
+}
+}
+
+@media (width <= 1360px){
+.contact__right__title{
+    padding-bottom: 50px;
+    font-family: var(--second-family);
+    font-weight: 600;
+font-size: 42px;
+color: #111;
+}
+}
+
+@media (width <= 1200px){
+.contact__right__title{
+    padding-bottom: 45px;
+    font-family: var(--second-family);
+    font-weight: 600;
+font-size: 40px;
+color: #111;
+}
+}
+
+@media (width <= 1050px){
+.contact__right__title{
+    padding-bottom: 42px;
+    font-family: var(--second-family);
+    font-weight: 600;
+font-size: 38px;
+color: #111;
+}
+}
+
+@media (width <= 992px){
+.contact__right__title{
+    padding-bottom: 30px;
+    font-family: var(--second-family);
+    font-weight: 600;
+font-size: 30px;
+color: #111;
+}
+}
+
+@media (width <= 768px){
+.contact__right__title{
+    padding-bottom: 20px;
+    font-family: var(--second-family);
+    font-weight: 600;
+font-size: 20px;
+color: #111;
+}
+}
+
+@media (width <= 700px){
+.contact__right__title{
+    padding-bottom: 20px;
+    font-family: var(--second-family);
+    font-weight: 600;
+font-size: 20px;
+color: #111;
+}
+}
+
+@media (width <= 604px){
+.contact__right__title{
+    padding-top: 50px;  
+    padding-bottom: 20px;
+    font-family: var(--second-family);
+    font-weight: 600;
+font-size: 20px;
+color: #111;
+}
+}
+
+@media (width <= 567px){
+.contact__right__title{
+    padding-top: 46px;
+    padding-bottom: 20px;
+    font-family: var(--second-family);
+    font-weight: 600;
+font-size: 20px;
+color: #111;
+}
+}
+
+.contact__from-rught{
+    display: flex;
+     flex-direction: column;
+}
+
+@media (width > 1360px){
+.contact__input-right{
+        font-family: var(--font-family);
+    font-weight: 400;
+font-size: 18px;
+color: #ababab;
+   width: 555px;
+    border: none;
+    background-color:  #f8f8f8;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+    padding: 15px 0;
+}
+}
+
+@media (width <= 1360px){
+.contact__input-right{
+        font-family: var(--font-family);
+    font-weight: 400;
+font-size: 18px;
+color: #ababab;
+   width: 555px;
+    border: none;
+    background-color:  #f8f8f8;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+    padding: 15px 0;
+}
+}
+
+@media (width <= 1200px){
+.contact__input-right{
+        font-family: var(--font-family);
+    font-weight: 400;
+font-size: 18px;
+color: #ababab;
+   width: 400px;
+    border: none;
+    background-color:  #f8f8f8;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+    padding: 15px 0;
+}
+}
+
+@media (width <= 1050px){
+.contact__input-right{
+        font-family: var(--font-family);
+    font-weight: 400;
+font-size: 18px;
+color: #ababab;
+   width: 360px;
+    border: none;
+    background-color:  #f8f8f8;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+    padding: 15px 0;
+}
+}
+
+@media (width <= 992px){
+.contact__input-right{
+        font-family: var(--font-family);
+    font-weight: 400;
+font-size: 14px;
+color: #ababab;
+   width: 330px;
+    border: none;
+    background-color:  #f8f8f8;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+}
+
+@media (width <= 768px){
+.contact__input-right{
+        font-family: var(--font-family);
+    font-weight: 400;
+font-size: 12px;
+color: #ababab;
+   width: 304px;
+    border: none;
+    background-color:  #f8f8f8;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+    padding: 7px 0;
+}
+}
+
+@media (width <= 700px){
+.contact__input-right{
+        font-family: var(--font-family);
+    font-weight: 400;
+font-size: 12px;
+color: #ababab;
+   width: 215px;
+    border: none;
+    background-color:  #f8f8f8;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+    padding: 7px 0;
+}
+}
+
+@media (width <= 576px){
+.contact__input-right{
+        font-family: var(--font-family);
+    font-weight: 400;
+font-size: 12px;
+color: #ababab;
+   width: 350px;
+    border: none;
+    background-color:  #f8f8f8;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+    padding: 6px 0;
+}
+}
+
+@media (width <= 390px){
+.contact__input-right{
+        font-family: var(--font-family);
+    font-weight: 400;
+font-size: 12px;
+color: #ababab;
+   width: 100%;
+    border: none;
+    background-color:  #f8f8f8;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+    padding: 6px 0;
+}
+}
+
+@media ( width > 1360px){
+.checkbox-text{
+    max-width:  510px;
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+color: #000;
+}
+}
+
+@media ( width <= 1360px){
+.checkbox-text{
+    max-width: 510px;
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+color: #000;
+}
+}
+
+@media ( width <= 1200px){
+.checkbox-text{
+    max-width: 450px;
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 14px;
+line-height: 120%;
+color: #000;
+}
+}
+
+@media ( width <= 992px){
+.checkbox-text{
+    max-width: 350px;
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 12px;
+line-height: 120%;
+color: #000;
+}
+}
+
+@media ( width <= 768px){
+.checkbox-text{
+    max-width: 320px;
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 10px;
+line-height: 120%;
+color: #000;
+}
+}
+
+@media ( width <= 700px){
+.checkbox-text{
+    max-width: 304px;
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 10px;
+line-height: 120%;
+color: #000;
+}
+}
+
+@media (width > 1360px ){
+ .checkbox-label {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+  }
+}
+
+@media (width <= 1360px ){
+ .checkbox-label {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+  }
+}
+
+@media (width <= 1200px ){
+ .checkbox-label {
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+  }
+}
+
+@media (width <= 992px ){
+ .checkbox-label {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    cursor: pointer;
+  }
+}
+
+@media (width <= 768px ){
+ .checkbox-label {
+    padding-top: 27px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+}
+
+@media (width <= 700px ){
+ .checkbox-label {
+    padding-top: 23px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+}
+
+@media (width <= 567px ){
+ .checkbox-label {
+    padding-top: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+}
+
+@media (width <= 390px ){
+ .checkbox-label {
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+}
+
+
+  .checkbox-label input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+   .checkbox-label .custom-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17px;
+    height: 17px;
+    flex-shrink: 0;
+  }
+  .checkbox-label .custom-checkbox svg {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.checkbox-label input[type="checkbox"]:checked + .custom-checkbox svg {
+  opacity: 1;
+}
+
+@media(width > 1360px){
+.checkbox-label input[type="checkbox"] + .custom-checkbox {
+  outline: 1px solid #111;
+  outline-offset: 4px;
+  border-radius: 3px;
+}
+}
+
+@media(width <= 1360px){
+.checkbox-label input[type="checkbox"] + .custom-checkbox {
+  outline: 1px solid #111;
+  outline-offset: 4px;
+  border-radius: 3px;
+}
+}
+
+@media(width <= 1200px){
+.checkbox-label input[type="checkbox"] + .custom-checkbox {
+  outline: 1px solid #111;
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+}
+
+@media(width <= 768px){
+.checkbox-label input[type="checkbox"] + .custom-checkbox {
+  outline: 1px solid #111;
+  outline-offset: 1.5px;
+  border-radius: 3px;
+}
+}
+
+@media(width <= 576px){
+.checkbox-label input[type="checkbox"] + .custom-checkbox {
+  outline: 1px solid #111;
+  outline-offset: 1px;
+  border-radius: 3px;
+}
+}
+
+@media (width > 1360px){
+.checkbox-icon{
+    width: 17px;
+    height: 13px;
+}
+}
+
+@media (width <= 1360px){
+.checkbox-icon{
+    width: 17px;
+    height: 13px;
+}
+}
+
+@media (width <= 1200px){
+.checkbox-icon{
+    width: 15px;
+    height: 12px;
+}
+}
+
+@media (width <= 992px){
+.checkbox-icon{
+    width: 13px;
+    height: 10px;
+}
+}
+
+@media (width <= 768px){
+.checkbox-icon{
+    width: 11px;
+    height: 7px;
+}
+}
+

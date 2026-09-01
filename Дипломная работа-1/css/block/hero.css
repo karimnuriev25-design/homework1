@@ -1,0 +1,404 @@
+.hero {
+    background: #ddd;
+    overflow: hidden;
+}
+
+@media (width > 1360px){
+    .hero__container {
+    display: flex;
+    position: relative;
+    min-height: 850px; 
+}
+}
+
+@media (width <= 1360px){
+    .hero__container {
+    display: flex;
+    position: relative;
+    min-height: 800px; 
+}
+}
+
+@media (width <= 1200px){
+    .hero__container {
+    display: flex;
+    position: relative;
+    min-height: 700px; 
+}
+}
+
+@media (width <= 992px){
+    .hero__container {
+    display: flex;
+    position: relative;
+    min-height: 500px; 
+}
+}
+
+@media (width <= 768px){
+    .hero__container {
+    display: flex;
+    position: relative;
+    min-height: 365px; 
+}
+}
+
+@media (width <= 576px){
+    .hero__container {
+    display: flex;
+    position: relative;
+    min-height: 280px; 
+}
+}
+
+@media (width <= 480px){
+    .hero__container {
+    display: flex;
+    position: relative;
+    min-height: 370px; 
+}
+}
+
+.hero__images-wrapper {
+    position: absolute;
+    display: block;
+    z-index: 0;
+    right: 0;
+    top: 0;
+}
+
+@media (width > 1360px){
+   .hero__images {
+    display: block;
+    width: 997px;
+    height: 850px;
+    object-fit: contain; /* Ключевое изменение — картинка видна целиком */
+    object-position: right; /* Прижимаем картинку к правому краю */
+    transform: translateX(270px);
+}
+}
+
+@media (width <= 1360px){
+   .hero__images {
+    display: block;
+    width: 937px;
+    height: 800px;
+    object-fit: contain; /* Ключевое изменение — картинка видна целиком */
+    object-position: right; /* Прижимаем картинку к правому краю */
+    transform: translateX(270px);
+}
+}
+
+@media (width <= 1200px){
+   .hero__images {
+    display: block;
+    width: 837px;
+    height: 700px;
+    object-fit: contain; /* Ключевое изменение — картинка видна целиком */
+    object-position: right; /* Прижимаем картинку к правому краю */
+    transform: translateX(270px);
+}
+}
+
+@media (width <= 992px){
+   .hero__images {
+    display: block;
+    width: 637px;
+    height: 500px;
+    object-fit: contain; 
+    object-position: right; 
+    transform: translateX(180px);
+}
+}
+
+@media (width <= 768px){
+   .hero__images {
+    display: block;
+    width: 400px;
+    height: 395px;
+    object-fit: contain; 
+    object-position: right; 
+    transform: translateX(110px);
+}
+}
+
+@media (width <= 576px){
+   .hero__images {
+    display: block;
+    width: 340px;
+    height: 320px;
+    object-fit: contain; 
+    object-position: right; 
+    transform: translateX(110px);
+}
+}
+
+@media (width <= 480px){
+   .hero__images {
+    display: block;
+    width: 320px;
+    height: 320px;
+    object-fit: contain; 
+    object-position: right; 
+    transform: translateX(100px) translateY(100px);
+}
+}
+
+.hero__info {
+    position: relative;
+    z-index: 1;
+}
+
+@media (width > 1360px){
+.hero__title{
+    padding-top: 250px  ;
+   width: 580px;
+ font-family: "NAMU-1930";
+ font-weight: 600;
+font-size: 46px;
+line-height: 103%;
+color: #111;
+}
+}
+
+@media (width <= 1360px){
+.hero__title{
+    padding-top: 170px  ;
+   width: 580px;
+ font-family: "NAMU-1930";
+ font-weight: 600;
+font-size: 42px;
+line-height: 103%;
+color: #111;
+}
+}
+
+@media (width <= 992px){
+.hero__title{
+    padding-top: 100px  ;
+   width: 450px;
+ font-family: "NAMU-1930";
+ font-weight: 600;
+font-size: 36px;
+line-height: 103%;
+color: #111;
+}
+}
+
+@media (width <= 768px){
+.hero__title{
+    padding-top: 80px ;
+   width: 380px;
+ font-family: "NAMU-1930";
+ font-weight: 600;
+font-size: 30px;
+line-height: 100%;
+color: #111;
+}
+}
+
+@media (width <= 600px){
+.hero__title{
+    padding-top: 80px ;
+   width: 330px;
+ font-family: "NAMU-1930";
+ font-weight: 600;
+font-size: 26px;
+line-height: 100%;
+color: #111;
+}
+}
+
+@media (width <= 576px){
+.hero__title{
+    padding-top: 60px ;
+   width: 300px;
+ font-family: "NAMU-1930";
+ font-weight: 600;
+font-size: 24px;
+line-height: 100%;
+color: #111;
+}
+}
+
+@media (width <= 390px){
+.hero__title{
+    padding-top: 50px ;
+   width: 300px;
+ font-family: "NAMU-1930";
+ font-weight: 600;
+font-size: 24px;
+line-height: 100%;
+color: #111;
+}
+}
+
+@media (width > 1360px){
+.hero__text{
+    padding-top: 30px;
+    width: 556px;
+    font-family: "OpenSans";
+ font-weight: 400;
+font-size: 26px;
+line-height: 130%;
+color: #111;
+}
+}
+
+@media (width <= 1360px){
+    .hero__text{
+    padding-top: 25px;
+    max-width: 500px;
+    font-family: "OpenSans";
+ font-weight: 400;
+font-size: 22px;
+line-height: 130%;
+color: #111;
+}
+}
+
+@media (width <= 992px){
+    .hero__text{
+    padding-top: 20px;
+    max-width: 400px;
+    font-family: "OpenSans";
+ font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+color: #111;
+}
+}
+
+@media (width <= 768px){
+    .hero__text{
+    padding-top: 20px;
+    max-width: 270px;
+    font-family: "OpenSans";
+ font-weight: 400;
+font-size: 12px;
+line-height: 130%;
+color: #111;
+}
+}
+
+@media (width <= 576px){
+    .hero__text{
+    padding-top: 18px;
+    max-width: 180px;
+    font-family: "OpenSans";
+ font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+color: #111;
+}
+}
+
+@media (width <= 390px){
+    .hero__text{
+    padding-top: 16px;
+    max-width: 180px;
+    font-family: "OpenSans";
+ font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+color: #111;
+}
+}
+
+@media (width > 1360px){
+    .button{
+    font-family: "OpenSans" ;
+    margin-top: 50px;
+    font-weight: 400;
+font-size: 24px;
+border-radius: 3px;
+color: var(--main-color);
+display: inline-block;
+background-color: var(--accent-color);
+    padding: 15px 50px;
+    transition: background-color var(--transition-time) ;
+}
+}
+
+@media (width <= 1360px){
+    .button{
+    font-family: "OpenSans" ;
+    margin-top: 35px;
+    font-weight: 400;
+font-size: 22px;
+border-radius: 3px;
+color: var(--main-color);
+display: inline-block;
+background-color: var(--accent-color);
+    padding: 15px 40px;
+    transition: background-color var(--transition-time) ;
+}
+}
+
+@media (width <= 992px){
+    .button{
+    font-family: "OpenSans" ;
+    margin-top: 35px;
+    font-weight: 400;
+font-size: 22px;
+border-radius: 3px;
+color: var(--main-color);
+display: inline-block;
+background-color: var(--accent-color);
+    padding: 10px 30px;
+    transition: background-color var(--transition-time) ;
+}
+}
+
+@media (width <= 768px){
+    .button{
+    font-family: "OpenSans" ;
+    margin-top: 47px;
+    font-weight: 400;
+font-size: 16px;
+border-radius: 3px;
+color: var(--main-color);
+display: inline-block;
+background-color: var(--accent-color);
+    padding: 7px 27px;
+    transition: background-color var(--transition-time) ;
+}
+}
+
+@media (width <= 576px){
+    .button{
+    font-family: "OpenSans" ;
+    margin-top: 40px;
+    font-weight: 400;
+font-size: 16px;
+border-radius: 3px;
+color: var(--main-color);
+display: inline-block;
+background-color: var(--accent-color);
+    padding: 7px 27px;
+    transition: background-color var(--transition-time) ;
+}
+}
+
+@media (width <= 390px){
+    .button{
+    font-family: "OpenSans" ;
+    margin-top: 37px;
+    font-weight: 400;
+font-size: 16px;
+border-radius: 3px;
+color: var(--main-color);
+display: inline-block;
+background-color: var(--accent-color);
+    padding: 7px 27px;
+    transition: background-color var(--transition-time) ;
+}
+}
+
+.button:hover{
+    background-color: #111;
+}
+
+.button:active{
+    transform: scale(1.1);
+}
