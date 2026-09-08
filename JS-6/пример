@@ -1,0 +1,64 @@
+//'use strict';
+// 1112
+/* const users = [
+  { name: 'Alex', age: 20 },
+  {
+    name: 'lon',
+    age: 20,
+  },
+  {
+    name: 'lon',
+    age: 201,
+  },
+];
+
+function sumAllAges(users) {
+  let sum = 0;
+  for (let i = 0; i < users.length; i++) {
+    sum += users[i].age;
+  }
+  return sum;
+}
+
+console.log(sumAllAges(users));
+ */
+
+// корзина
+/* const cart = [
+  {
+    productName: 'Ноутбук',
+    price: '50000',
+  },
+  {
+    productName: 'Часы',
+    price: '7000',
+  },
+];
+
+console.log(cart);
+
+cart.push({ productName: 'Телефон', price: '60000' });
+
+console.log(cart);
+ */
+
+/* const numbers = [1, 2, 3, 4, 5];
+
+ numbers.forEach(function (number) {
+  sum += number;
+}); 
+
+function forEach(array, callbackFunc) {
+  for (let i = 0; i < array.lenght; i++) {
+    callbackFunc(array[i], i, array);
+  }
+}
+
+let sum = 0;
+
+forEach(numbersm, function (number) {
+  sum += number;
+});
+
+console.log(sum);
+ */
