@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Пойдём гулять? ❤️</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+        overflow: hidden;
+      }
+
+      .card {
+        width: 90%;
+        max-width: 550px;
+        padding: 50px 30px;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 30px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+      }
+
+      .heart {
+        font-size: 70px;
+        animation: heartbeat 1.2s infinite;
+      }
+
+      h1 {
+        font-size: 38px;
+        color: #333;
+        margin: 20px 0 10px;
+      }
+
+      p {
+        font-size: 20px;
+        color: #777;
+        margin-bottom: 35px;
+      }
+
+      .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        min-height: 60px;
+      }
+
+      button {
+        border: none;
+        padding: 15px 30px;
+        border-radius: 15px;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        transition:
+          transform 0.2s,
+          box-shadow 0.2s;
+      }
+
+      #yes {
+        background: #ff4d6d;
+        color: white;
+      }
+
+      #yes:hover {
+        transform: scale(1.08);
+        box-shadow: 0 8px 20px rgba(255, 77, 109, 0.4);
+      }
+
+      #no {
+        background: #eee;
+        color: #555;
+        position: fixed;
+      }
+
+      .success {
+        display: none;
+        margin-top: 30px;
+        font-size: 28px;
+        font-weight: bold;
+        color: #ff4d6d;
+        animation: appear 0.5s ease;
+      }
+
+      .success span {
+        display: block;
+        font-size: 50px;
+        margin-bottom: 10px;
+      }
+
+      @keyframes heartbeat {
+        0%,
+        100% {
+          transform: scale(1);
+        }
+
+        50% {
+          transform: scale(1.15);
+        }
+      }
+
+      @keyframes appear {
+        from {
+          opacity: 0;
+          transform: scale(0.5);
+        }
+
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="card">
+      <div class="heart">❤️</div>
+
+      <h1>Идём сегодня гулять?</h1>
+
+      <p>У меня есть предложение, от которого сложно отказаться 😏</p>
+
+      <div class="buttons">
+        <button id="yes">Да ❤️</button>
+        <button id="no">Нет 😢</button>
+      </div>
+
+      <div class="success" id="success">
+        <span>🥰</span>
+        Правильный выбор! ❤️
+        <br />
+        <small>Тогда сегодня идём гулять!</small>
+      </div>
+    </div>
+
+    <script>
+      const noButton = document.getElementById('no');
+      const yesButton = document.getElementById('yes');
+      const success = document.getElementById('success');
+
+      // Кнопка "Нет" убегает при наведении
+      noButton.addEventListener('mouseenter', moveButton);
+
+      function moveButton() {
+        const buttonWidth = noButton.offsetWidth;
+        const buttonHeight = noButton.offsetHeight;
+
+        const maxX = window.innerWidth - buttonWidth - 20;
+        const maxY = window.innerHeight - buttonHeight - 20;
+
+        const randomX = Math.max(20, Math.random() * maxX);
+        const randomY = Math.max(20, Math.random() * maxY);
+
+        noButton.style.left = randomX + 'px';
+        noButton.style.top = randomY + 'px';
+      }
+
+      // Нажатие "Да"
+      yesButton.addEventListener('click', () => {
+        success.style.display = 'block';
+
+        yesButton.style.display = 'none';
+        noButton.style.display = 'none';
+      });
+    </script>
+  </body>
+</html>
