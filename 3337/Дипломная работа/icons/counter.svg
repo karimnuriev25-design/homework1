@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <symbol id="minus" viewBox="0 0 20 20">
+        <path d="M5 10 H15" stroke="#ABABAB" stroke-width="2" stroke-linecap="round" />
+    </symbol>
+
+    <symbol id="plus" viewBox="0 0 20 20">
+        <path d="M10 5 V15 M5 10 H15" stroke="#0b0808" stroke-width="2" stroke-linecap="round" />
+    </symbol>
+</svg>
