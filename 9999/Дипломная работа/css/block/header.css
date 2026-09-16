@@ -1,0 +1,322 @@
+.header{
+    
+background-color: var(--bg-color);
+font-family: var(--second-family);
+}
+
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (width < 992px) {
+    .header__container {
+        justify-content: flex-start; 
+        align-items: center;
+    }
+
+    .header__logo-link {
+        margin-left: 20px; 
+    }
+
+    
+    .header__container > button:last-child {
+        margin-left: auto;
+    }
+}
+
+@media (width > 1360px){
+   .burger{
+    width: 50px;
+    height: 50px;
+   }
+}
+
+@media (width <= 1360px){
+   .burger{
+    width: 40px;
+    height: 40px;
+   }
+}
+
+@media (width <= 992px){
+   .burger{
+    width: 40px;
+    height: 40px;
+   }
+}
+
+@media (width <= 768px){
+   .burger{
+    width: 40px;
+    height: 40px;   
+   }
+}
+
+@media (width <= 366px){
+   .burger{
+    width: 30px;
+    height: 30px;  
+   }
+}
+
+@media (width > 1360px){
+   .basket{
+    width: 48px;
+    height: 48px;  
+}
+}
+
+@media (width <= 1360px){
+   .basket{
+    width: 31px;
+    height: 31px;  
+}
+}
+
+@media (width <= 992px){
+    .basket{
+    width: 31px;
+    height: 31px;  
+}
+}
+
+@media (width <= 768px){
+    .basket{
+    width: 31px;
+    height: 31px;  
+}
+}
+
+@media (width <= 366px){
+    .basket{
+    width: 24px;
+    height: 24px;  
+}
+}
+
+@media (width > 1360px){
+   .header__img{
+    display: block;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    width: 183px;
+    height: 77px;
+   }
+}
+
+@media (width <= 1360px){
+   .header__img{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    width: 142px;
+    height: 60px;
+   }
+}
+
+@media (width <= 992px){
+    .header__img{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    width: 142px;
+    height: 60px;
+    
+   }
+}
+
+@media (width <= 366px){
+    .header__img{
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    width: 94px;
+    height: 39px;
+    
+   }
+}
+
+@media (width > 1360px){
+    .menu__list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+}
+
+@media (width <= 1360px){
+    .menu__list{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+}
+
+@media (width > 1360px){
+.menu__link{
+    color: aliceblue;
+    font-size: 18px;
+    transition: color var(--transition-time);
+}
+}
+
+
+@media (width <= 1360px){
+   .menu__link{
+    color: aliceblue;
+    font-size: 14px;
+    transition: color var(--transition-time);
+}
+}
+
+@media (width <= 992px){
+   .header__menu{
+        display: none;
+   }
+}
+
+.menu__link:hover{
+  color: var(--accent-color);
+}
+
+.burger {
+    fill: #ffffff;
+    stroke: #ffffff;
+    transition: fill var(--transition-time), stroke var(--transition-time);
+}
+@media(any-hover: hover){
+.burger:hover {
+    fill: var(--accent-color);
+    stroke: var(--accent-color);
+}
+}
+
+.basket{
+    fill: #ffffff;
+    stroke: #ffffff;
+    transition: fill var(--transition-time), stroke var(--transition-time);
+}
+@media(any-hover: hover){
+    .basket:hover {
+    fill: var(--accent-color);
+    stroke: var(--accent-color);
+}
+}
+
+/* Корзина */
+  
+/* Затемнение фона */
+.cart-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 998;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--transition-time), visibility var(--transition-time);
+}
+
+.cart-overlay.is-open {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Сама панель */
+.cart-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  max-width: 500px; 
+  height: 100%;
+  background-color: #ffffff;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+  
+  /* Скрываем панель справа */
+  transform: translateX(100%);
+  transition: transform var(--transition-time);
+}
+
+/* Класс, который открывает панель */
+.cart-panel.is-open {
+  transform: translateX(0);
+}
+
+/* Шапка панели */
+.cart-panel__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+  flex-shrink: 0; /* Чтобы шапка не сжималась */
+}
+
+.cart-panel__title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  font-family: var(--second-family);
+}
+
+.cart-panel__close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  color: #333;
+  transition: color var(--transition-time);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-panel__close:hover {
+  color: var(--accent-color);
+}
+
+/* Тело панели (где будет товар) */
+.cart-panel__body {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto; /* Скролл, если товаров много */
+  display: flex; /* Чтобы заглушка центрировалась */
+}
+
+/* Заглушка "Товаров пока нет" */
+.cart-panel__empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  color: #888;
+  margin: auto; /* Центрирование по вертикали и горизонтали */
+}
+
+.cart-panel__empty p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: 500;
+}
+
+.cart-panel__empty span {
+  font-size: 14px;
+}
+
+/* Адаптив для мобильных */
+@media (max-width: 480px) {
+  .cart-panel {
+    max-width: 100%; /* На телефонах панель на всю ширину */
+  }
+}
