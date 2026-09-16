@@ -1,0 +1,280 @@
+
+@media (width > 1360px){
+.expert__section{
+    background: #f8f8f8;
+}
+}
+
+@media (width <= 1360px){
+.expert__section{
+    background: #f8f8f8;
+}
+}
+
+@media (width <= 1200px){
+.expert__section{
+    background: #f8f8f8;
+}
+}
+
+@media (width <= 768px){
+.expert__section{
+    background: #f5f5f5;
+}
+}
+
+@media (width <= 390px){
+.expert__section{
+    background: #f8f8f8;
+}
+}
+
+.expert-content{
+    z-index: 1;
+}
+
+
+@media (width  > 1360px){
+.expert__container{
+    display: flex;
+    position: relative;
+    
+}
+}
+
+@media (width  <= 1360px){
+.expert__container{
+    display: flex;
+    position: relative;
+    min-height:750px ;
+}
+}
+
+@media (width  <= 1200px){
+.expert__container{
+    display: flex;
+    position: relative;
+     min-height: 400px;
+}
+}
+
+
+@media (width  > 1360px){
+.expert-image-wrapper {
+    position: absolute;
+    bottom: 0;
+    right:0;     
+    z-index: 0;
+    max-width:  700px;
+}
+}
+
+@media (width  <= 1360px){
+.expert-image-wrapper {
+    position: absolute;
+    bottom: 0;
+    right:0;     
+    z-index: 0;
+    max-width:  700px;
+}
+}
+
+@media (width  <= 1200px){
+.expert-image-wrapper {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    right:0;     
+    z-index: 0;
+    max-width:  700px;
+}
+}
+
+@media (width  > 1360px){
+.expert-image {
+    transform: translateX(40px);
+    max-width: 700px;
+    height: 700px;
+    display: block;
+}
+}
+
+@media (width <= 1360px){
+.expert-image {
+    transform: translateX(40px) translateY(px);
+    max-width: 600px;
+    height: 600px;
+    display: block;
+}
+}
+
+
+@media (width > 1360px){
+.expert-title{  
+    padding-top: 150px;
+    margin-bottom: 40px;
+font-family: var(--second-family);
+    font-weight: 600;
+font-size: 42px;
+color: #111;
+}
+}
+
+@media (width <= 1360px){
+.expert-title{  
+    padding-top: 110px;
+    margin-bottom: 35px;
+font-family: var(--second-family);
+    font-weight: 600;
+font-size: 40px;
+color: #111;
+}
+}
+
+@media (width <= 1200px){
+.expert-title{  
+    padding-top: 80px;
+    margin-bottom: 35px;
+font-family: var(--second-family);
+    font-weight: 600;
+font-size: 38px;
+color: #111;
+}
+}
+
+@media (width <= 768px){
+.expert-title{  
+    padding-top: 60px;
+    margin-bottom: 20px;
+font-family: var(--second-family);
+    font-weight: 600;
+font-size: 28px;
+color: #111;
+}
+}
+
+@media (width <= 576px){
+.expert-title{  
+    padding-top: 55px;
+    margin-bottom: 20px;
+font-family: var(--second-family);
+    font-weight: 600;
+font-size: 24px;
+color: #111;
+}
+}
+
+@media (width <= 480px){
+.expert-title{  
+    padding-top: 55px;
+    margin-bottom: 20px;
+font-family: var(--second-family);
+    font-weight: 600;
+font-size: 22px;
+color: #111;
+}
+}
+
+@media (width <= 390px){
+.expert-title{  
+    padding-top: 46px;
+    margin-bottom: 20px;
+font-family: var(--second-family);
+    font-weight: 600;
+font-size: 18px;
+color: #111;
+}
+}
+
+@media (width > 1360px){
+.expert-text{
+    padding-bottom: 35px;
+    max-width: 670px;
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+color: #000;
+}
+}
+
+@media (width <= 1360px){
+.expert-text{
+    padding-bottom: 30px;
+    max-width: 580px;
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #000;
+}
+}
+
+@media (width <= 1200px){
+.expert-text{
+    padding-bottom: 30px;
+    max-width: 900px;
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #000;
+}
+}
+
+@media (width <= 768px){
+.expert-text{
+    padding-bottom: 30px;
+    max-width: 650px;
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+color: #000;
+}
+}
+
+@media (width <= 576px){
+.expert-text{
+    padding-bottom: 30px;
+    max-width: 650px;
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+color: #000;
+}
+}
+
+@media (width <= 480px){
+.expert-text{
+    padding-bottom: 17px;
+    max-width: 650px;
+    font-family: var(--font-family);
+    font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+color: #000;
+}
+}
+
+
+@media (width > 1360px){
+.expert-text:last-child{
+    padding-bottom: 100px;
+}
+}
+
+@media (width <= 1360px){
+.expert-text:last-child{
+    padding-bottom: 100px;
+}
+}
+
+@media (width <= 768px){
+.expert-text:last-child{
+    padding-bottom: 60px;
+}
+}
+
+
